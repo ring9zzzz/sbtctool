@@ -26,8 +26,13 @@ header {
     width:250px;
 }
 
+#random 
+{
+    position:relative;
+}
+
 .display-flex {
-    display:flex;
+    display: flex;
 }
 
 #add-member:hover {
