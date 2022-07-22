@@ -193,9 +193,11 @@ $("#random").on("click", function(e) {
         preventDuplicate: function(num1, num2,randomKey) 
         {
          
-            if (num1 == num2) {
-               number = Math.floor(Math.random() * randomKey);
-               return se.preventDuplicate(num1, number, randomKey);
+            if (num1 == num2 && randomKey > 1) {   
+                
+                 number = Math.floor(Math.random() * randomKey);
+                 return se.preventDuplicate(num1, number, randomKey);
+              
             } else 
             {
               return num2;
