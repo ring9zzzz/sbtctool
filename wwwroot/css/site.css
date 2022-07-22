@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+header {
+    height: 200px;
+    margin-left:250px;
+}
+
+.input-group-text{
+    width:250px;
+}
+
+.display-flex {
+    display:flex;
+}
+
+#add-member:hover {
+    cursor: pointer;
+}
+
+.body-content {
+    margin-top: 300px;
+}
+
+.fa-remove {
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    font-size: x-large;
+    float: right;
+}
+
+img.se-banner {
+    position: relative;
+    height: 385px;
+    width: auto;
+}
+
+#list-member
+{
+    width:50%;
+}
+
+#list-random-member {
+    width: 50%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px !important;
+}
+
+.se-sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: #000 !important;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+}

@@ -1,0 +1,5 @@
+vào trang https://dotnet.microsoft.com/en-us/download
+
+tải .NET SDK x64 vào cài vào máy
+
+sau khi cài xong thì click vào file run.bat để mở trương trình.
